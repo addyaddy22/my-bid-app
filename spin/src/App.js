@@ -27,7 +27,6 @@ function App() {
             <Route element={<AdminView />} path="/adminview"></Route>
             <Route element={<ItemsDetailsPage />} path="/landingpage"></Route>
             <Route element={<Productpage2 />} path="/productpage2/">
-              {/* <Productpage2 /> */}
             </Route>
             <Route element={<ConfigPage />} path="configpage"></Route>
           </Route>
